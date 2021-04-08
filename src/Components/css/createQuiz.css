@@ -1,0 +1,128 @@
+.create-quiz-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete {
+    margin-left: 20px;
+    border: none;
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    color: #fff;
+}
+
+.add-option {
+    width: 150px;
+    align-self: center;
+    margin-top: 20px;
+    border: none;
+    background-color: #2E3443;
+    color: #fff;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.addQuestion {
+    width: 150px;
+    align-self: center;
+    margin-top: 20px;
+    border: none;
+    background-color: #fff;
+    color: #2E3443;
+    height: 50px;
+    border-radius: 30px;
+    align-self: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.result {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    align-self: center;
+    resize: none;
+    height: 60px;
+    border: 0.1px solid #dcdcdc;
+    font-size: 16px;
+}
+
+.submit {
+    width: 150px;
+    align-self: center;
+    margin-top: 20px;
+    border: none;
+    background-color: #2E3443;
+    color: #fff;
+    height: 50px;
+    border-radius: 30px;
+    align-self: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.fileContainer {
+    overflow: hidden;
+    position: relative;
+    width: 150px;
+    align-self: center;
+    border: none;
+    background-color: #2E3443;
+    color: #fff;
+    border-radius: 30px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.fileContainer [type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+select {
+    -webkit-appearance: none;
+    position: relative;
+}
+
+.dropdown {
+    position: absolute;
+    top: 35px;
+    right: 100px;
+    z-index: 1000;
+}
+
+.popUp1 {
+    position: absolute;
+    border: none;
+    background-color: #dcdcdc;
+    top: 20px;
+    width: 200px;
+    border-radius: 20px;
+    padding:10px;
+    cursor:none;
+    caret-color: transparent;
+    margin-left: 40%;
+    transform: translateX(40%);
+    text-align: center;
+  }
